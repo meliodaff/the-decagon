@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Open_Sans, Bokor } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Galaxy from "../components/Galaxy.jsx";
-import Header from "@/components/Header";
-import DarkVeil from "@/components/DarkVeil";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,44 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`} id="home">
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100vh",
-            zIndex: -1,
-          }}
-        >
-          {/* <Galaxy
-            mouseRepulsion={false}
-            mouseInteraction={false}
-            density={1}
-            glowIntensity={0.3}
-            saturation={0}
-            hueShift={140}
-            twinkleIntensity={0.3}
-            rotationSpeed={0.1}
-            repulsionStrength={2}
-            autoCenterRepulsion={0}
-            starSpeed={0.5}
-            speed={1}
-            transparent={false}
-          /> */}
-          <DarkVeil
-            hueShift={0}
-            noiseIntensity={0}
-            scanlineIntensity={0}
-            speed={0.5}
-            scanlineFrequency={0}
-            warpAmount={0}
-          />
-        </div>
-
-        <Header />
-        <main className="w-[80%] m-auto text-white">{children}</main>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        id="home"
+      >
+        {children}
       </body>
     </html>
   );
