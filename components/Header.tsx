@@ -3,8 +3,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 bg-white">
-      <div className="p-4 w-[80%] min-w-[320px] max-w-[1200px] mx-auto border-2 grid grid-cols-2 items-center mb-10">
+    <header className="sticky top-0  z-100 shadow-sm bg-white">
+      <div className="p-4 w-[80%] min-w-[320px] max-w-[1200px] mx-auto grid grid-cols-2 items-center mb-10">
         <Link href="/">
           <div>
             <h1 className="text-3xl font-bold">DECAGON</h1>
