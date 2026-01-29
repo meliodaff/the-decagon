@@ -44,55 +44,67 @@ export default function Home() {
       description:
         "Passionate about coding and building hardware and IoT projects. Skilled at turning user needs into functional systems and optimizing workflows for efficiency",
       imageUrl: "RusselCalinawan.png",
+      socials: {
+        github: "https://github.com/CalinawanRussell",
+        facebook: "https://www.facebook.com/russell.calinawan.09",
+      },
     },
     {
       id: 4,
-      name: "Team Member",
-      role: "Project Manager",
-      description: "Ensuring projects run smoothly and on schedule.",
-      imageUrl: "KurtLonganilla.png",
+      name: "Alyssa Casan",
+      role: "Systems Analyst",
+      description:
+        "Detail-oriented analyst focused on undestanding user needs and system processes. Skilled in documentation and workflow analysis",
+      imageUrl: "Placeholder.png",
+      socials: {
+        github: "https://github.com/alysrc",
+      },
     },
     {
       id: 5,
-      name: "Team Member",
-      role: "Backend Developer",
-      description: "Building robust and efficient server solutions.",
-      imageUrl: "KurtLonganilla.png",
+      name: "Ren Tentia",
+      role: "Technical Writer",
+      description:
+        "Currently building a strong foundation in technical writing and UI/UX design focusing on clear documentation, user-centered interfaces.",
+      imageUrl: "Placeholder.png",
+      socials: {
+        github: "https://github.com/RenLeeMay",
+      },
     },
     {
       id: 6,
-      name: "Team Member",
+      name: "Lawrence Bermudo",
       role: "Frontend Developer",
       description: "Crafting responsive and dynamic web interfaces.",
-      imageUrl: "KurtLonganilla.png",
+      imageUrl: "LawrenceBermudo.png",
     },
     {
       id: 7,
       name: "Team Member",
       role: "QA Engineer",
       description: "Ensuring quality through comprehensive testing.",
-      imageUrl: "KurtLonganilla.png",
+      imageUrl: "Placeholder.png",
     },
     {
       id: 8,
       name: "Team Member",
       role: "DevOps Engineer",
       description: "Optimizing deployment and infrastructure.",
-      imageUrl: "KurtLonganilla.png",
+      imageUrl: "Placeholder.png",
     },
     {
       id: 9,
       name: "Team Member",
       role: "Data Analyst",
       description: "Turning data into actionable insights.",
-      imageUrl: "KurtLonganilla.png",
+      imageUrl: "Placeholder.png",
     },
     {
       id: 10,
       name: "Team Member",
       role: "UX Researcher",
       description: "Understanding user needs and behaviors.",
-      imageUrl: "KurtLonganilla.png",
+      imageUrl: "Placeholder.png",
     },
   ];
   return (
@@ -100,7 +112,9 @@ export default function Home() {
       <Header />
       <main className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto font-sans">
         <section className="p-50 text-center mb-40">
-          <h1 className="text-6xl font-black">Ten Minds, One Mission</h1>
+          <h1 className="text-6xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text">
+            Ten Minds, One Mission
+          </h1>
           <h2 className="text-3xl text-gray-500">
             to Create Solutions that Work!
           </h2>

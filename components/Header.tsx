@@ -1,13 +1,20 @@
 import Link from "next/link";
-import React from "react";
-
+import Image from "next/image";
 const Header = () => {
   return (
     <header className="sticky top-0  z-100 shadow-sm bg-white">
-      <div className="p-4 w-[80%] min-w-[320px] max-w-[1200px] mx-auto grid grid-cols-2 items-center mb-10">
+      <div className="px-4 py-2 w-[80%] min-w-[320px] max-w-[1200px] mx-auto grid grid-cols-2 items-center mb-10 ">
         <Link href="/">
-          <div>
-            <h1 className="text-3xl font-bold">DECAGON</h1>
+          <div className="flex items-center tracking-[5]">
+            <h1 className="text-3xl font-black">DECAG</h1>
+            <Image
+              src="/DECAFINALBOSS.png"
+              alt="Decagon Logo"
+              width={45}
+              height={35}
+              className="mx-2"
+            />
+            <h1 className="text-3xl font-black">N</h1>
           </div>
         </Link>
         <nav>

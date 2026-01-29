@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 interface Member {
   id: number;
   name: string;
@@ -15,7 +16,7 @@ interface Member {
 
 const ProfileCard = (props: Member) => {
   return (
-    <div className="group border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:border-fuchsia-500 duration-200 rounded-2xl pt-5 px-3 flex flex-col items-center h-100">
+    <div className="group border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:border-fuchsia-500 duration-200 rounded-2xl pt-5 px-3 pb-2 flex flex-col items-center h-110">
       <img
         src={`/${props.imageUrl}`}
         alt={props.name}
@@ -29,6 +30,38 @@ const ProfileCard = (props: Member) => {
         {props.role}
       </h4>
       <p className="text-gray-500 text-center">{props.description}</p>
+      <div className="flex gap-2 mt-auto">
+        {props.socials?.linkedin && (
+          <Link href={props.socials.linkedin} target="_blank">
+            <Image
+              src="/linkedin-brands-solid-full.svg"
+              alt={""}
+              width={30}
+              height={30}
+            />
+          </Link>
+        )}
+        {props.socials?.github && (
+          <Link href={props.socials.github} target="_blank">
+            <Image
+              src="/github-brands-solid-full.svg"
+              alt={""}
+              width={30}
+              height={30}
+            />
+          </Link>
+        )}
+        {props.socials?.facebook && (
+          <Link href={props.socials.facebook} target="_blank">
+            <Image
+              src="/facebook-brands-solid-full.svg"
+              alt={""}
+              width={30}
+              height={30}
+            />
+          </Link>
+        )}
+      </div>
     </div>
   );
 };

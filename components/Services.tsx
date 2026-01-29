@@ -1,6 +1,51 @@
+import Image from "next/image";
+
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  imageURL: string;
+  categories: string[];
+}
+
 const Services = () => {
+  const projects: Project[] = [
+    {
+      id: 1,
+      title: "F&M Law Firm Management System",
+      description:
+        "A Web-Based Application that helps law firms manage their cases, clients, and documents efficiently. It offers features such as case tracking, client management, document storage, and billing.",
+      imageURL: "/F&MLawFirm.png",
+      categories: ["Management", "Legal Tech"],
+    },
+    {
+      id: 2,
+      title: "FurEver HR Information System",
+      description:
+        "A Web-Based Application that streamlines HR processes such as employee onboarding, attendance tracking and performance management. It provides a centralized platform for HR professionals to manage employee data and improve productivity.",
+      imageURL: "/FurEverHR.png",
+      categories: ["Management", "Human Resources"],
+    },
+    {
+      id: 3,
+      title: "FurEver Finance System",
+      description:
+        "A Web-Based Application that helps businesses manage their finances effectively. It includes features such as payroll, expense tracking, invoicing, and financial reporting to provide insights into the company's financial health.",
+      imageURL: "/FurEverFinance.png",
+      categories: ["Management", "Finance"],
+    },
+    {
+      id: 4,
+      title: "KodeGlass",
+      description:
+        "KodeGlass is a cybersecurity SaaS (Software as a Service) website that helps humans protect software source code from leaks, theft, and misuse while allowing developers to work safely and efficiently.",
+      imageURL: "/KodeGlass.png",
+      categories: ["CyberSecurity", "AI"],
+    },
+  ];
+
   return (
-    <section className="mb-40 " id="services">
+    <section className="mb-20" id="services">
       <div className="core-services mb-20">
         <h2 className="text-center text-4xl font-bold mb-10">Our Services</h2>
         <div className="flex gap-x-7 justify-around">
@@ -40,100 +85,46 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-center text-4xl font-bold mb-10">Projects</h2>
+        <h3 className="text-center text-3xl font-bold mb-10">Projects</h3>
         <div className="grid grid-cols-2 gap-y-10">
-          <div className="card bg-base-100 w-140 shadow-sm rounded-2xl hover:shadow-2xl duration-200 group">
-            <div className="relative overflow-hidden rounded-t-2xl">
-              <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute left-3">
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Management
+          {projects.length > 0
+            ? projects.map((project) => (
+                <div
+                  key={project.id}
+                  className="card bg-base-100 w-140 shadow-sm rounded-2xl hover:shadow-2xl duration-200 group"
+                >
+                  <div className="relative overflow-hidden rounded-t-2xl">
+                    <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3">
+                      {project.categories.map((category, index) => (
+                        <div
+                          key={index}
+                          className="rounded-4xl py-.5 px-2  text-white bg-violet-500/80 shadow-lg backdrop-blur-xl border border-white/20"
+                        >
+                          {category}
+                        </div>
+                      ))}
+                    </div>
+                    <figure>
+                      <Image
+                        src={project.imageURL}
+                        alt="Shoes"
+                        className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110"
+                        width={600}
+                        height={600}
+                      />
+                    </figure>
+                  </div>
+                  <div className="card-body p-5">
+                    <h2 className="card-title text-2xl font-semibold mb-2">
+                      {project.title}
+                    </h2>
+                    <p className="text-justify text-gray-500">
+                      {project.description}
+                    </p>
+                  </div>
                 </div>
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Legal Tech
-                </div>
-              </div>
-              <figure>
-                <img
-                  src="F&MLawFirm.png"
-                  alt="Shoes"
-                  className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110"
-                />
-              </figure>
-            </div>
-            <div className="card-body p-5">
-              <h2 className="card-title text-2xl font-semibold mb-2">
-                F&M Law Firm Management System
-              </h2>
-              <p className="text-justify text-gray-500">
-                A Web-Based Application that helps law firms manage their cases,
-                clients, and documents efficiently. It offers features such as
-                case tracking, client management, document storage, and billing.
-              </p>
-            </div>
-          </div>
-
-          <div className="card bg-base-100 w-140 shadow-sm rounded-2xl hover:shadow-2xl duration-200 group">
-            <div className="relative overflow-hidden rounded-t-2xl">
-              <div className="card-actions flex justify-end gap-x-1 mt-3 text-white absolute left-3 z-10">
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Management
-                </div>
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Human Resources
-                </div>
-              </div>
-              <figure>
-                <img
-                  src="FurEver.png"
-                  alt="Shoes"
-                  className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110"
-                />
-              </figure>
-            </div>
-            <div className="card-body p-5">
-              <h2 className="card-title text-2xl font-semibold mb-2">
-                FurEver HR Information System
-              </h2>
-              <p className="text-justify text-gray-500">
-                A Web-Based Application that streamlines HR processes such as
-                employee onboarding, attendance tracking, performance
-                management, and payroll. It provides a centralized platform for
-                HR professionals to manage employee data and improve
-                productivity.
-              </p>
-            </div>
-          </div>
-          <div className="card bg-base-100 w-140 shadow-sm rounded-2xl hover:shadow-2xl duration-200 group">
-            <div className="relative overflow-hidden rounded-t-2xl">
-              <div className="card-actions flex justify-end gap-x-1 mt-3 text-white absolute left-3 z-10">
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Management
-                </div>
-                <div className="rounded-4xl py-.5 px-2 bg-cyan-300">
-                  Human Resources
-                </div>
-              </div>
-              <figure>
-                <img
-                  src="FurEver.png"
-                  alt="Shoes"
-                  className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110"
-                />
-              </figure>
-            </div>
-            <div className="card-body p-5">
-              <h2 className="card-title text-2xl font-semibold mb-2">
-                FurEver HR Information System
-              </h2>
-              <p className="text-justify text-gray-500">
-                A Web-Based Application that streamlines HR processes such as
-                employee onboarding, attendance tracking, performance
-                management, and payroll. It provides a centralized platform for
-                HR professionals to manage employee data and improve
-                productivity.
-              </p>
-            </div>
-          </div>
+              ))
+            : "No projects yet"}
         </div>
       </div>
     </section>
