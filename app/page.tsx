@@ -74,8 +74,9 @@ export default function Home() {
     {
       id: 6,
       name: "Lawrence Bermudo",
-      role: "Frontend Developer",
-      description: "Crafting responsive and dynamic web interfaces.",
+      role: "UI/UX Designer",
+      description:
+        "A UI/UX designer skilled in Figma, with a passion for user-centered design and clean interface solutions. Motivated to learn, grow, and contribute to meaningful digital experiences.",
       imageUrl: "LawrenceBermudo.png",
     },
     {

@@ -16,7 +16,7 @@ interface Member {
 
 const ProfileCard = (props: Member) => {
   return (
-    <div className="group border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:border-fuchsia-500 duration-200 rounded-2xl pt-5 px-3 pb-2 flex flex-col items-center h-110">
+    <div className="w-[230] group border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:border-fuchsia-500 duration-200 rounded-2xl pt-5 px-5 pb-2 flex flex-col items-center h-110">
       <img
         src={`/${props.imageUrl}`}
         alt={props.name}

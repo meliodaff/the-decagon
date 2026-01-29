@@ -12,7 +12,7 @@ const Header = () => {
               alt="Decagon Logo"
               width={45}
               height={35}
-              className="mx-2"
+              className="mr-1"
             />
             <h1 className="text-3xl font-black">N</h1>
           </div>
