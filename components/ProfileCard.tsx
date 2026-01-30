@@ -25,9 +25,7 @@ const ProfileCard = (props: Member) => {
         height={120}
       />
 
-      <h3 className="text-base sm:text-lg font-bold text-center">
-        {props.name}
-      </h3>
+      <h3 className="sm:text-md font-bold text-center">{props.name}</h3>
       <h4 className="text-gray-700 text-xs sm:text-sm font-semibold leading-2 mb-3 text-center">
         {props.role}
       </h4>
