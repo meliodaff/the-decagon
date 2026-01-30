@@ -70,8 +70,8 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <nav className="md:hidden bg-white border-t border-gray-200">
-          <ul className="flex flex-col gap-4 text-gray-600 px-4 py-4">
+        <nav className="md:hidden bg-white border-t border-gray-100 -mt-10">
+          <ul className="flex flex-col gap-4 text-gray-600 px-4 py-4 text-center">
             <li>
               <Link
                 href="/"
