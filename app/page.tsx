@@ -56,7 +56,7 @@ export default function Home() {
       role: "Technical Writer",
       description:
         "Currently building a strong foundation in technical writing and UI/UX design focusing on clear documentation, user-centered interfaces.",
-      imageUrl: "Placeholder.png",
+      imageUrl: "RenTentia.png",
       socials: {
         github: "https://github.com/RenLeeMay",
         facebook: "https://www.facebook.com/renlee.tentia.3",
