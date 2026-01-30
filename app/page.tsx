@@ -111,8 +111,9 @@ export default function Home() {
     {
       id: 9,
       name: "Raphael Ocampo",
-      role: "Data Analyst",
-      description: "Turning data into actionable insights.",
+      role: "Full Stack Developer",
+      description:
+        "Experienced in building responsive frontend interfaces and functional backend systems, integrating APIs and databases, and contributing to feature development and maintenance while continuously improving development skills.",
       imageUrl: "RaphaelOcampo.png",
     },
     {

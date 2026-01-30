@@ -31,7 +31,7 @@ const ProfileCard = (props: Member) => {
       <h4 className="text-gray-700 text-xs sm:text-sm font-semibold leading-2 mb-3 text-center">
         {props.role}
       </h4>
-      <p className="text-gray-500 text-center text-xs sm:text-sm line-clamp-3 sm:line-clamp-4 flex-grow">
+      <p className="text-gray-500 text-center text-xs sm:text-sm flex-grow">
         {props.description}
       </p>
       <div className="flex gap-2 mt-auto pt-3">
