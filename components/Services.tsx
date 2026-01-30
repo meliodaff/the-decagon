@@ -47,35 +47,37 @@ const Services = () => {
   return (
     <section className="mb-20" id="services">
       <div className="core-services mb-20">
-        <h2 className="text-center text-4xl font-bold mb-10">Our Services</h2>
-        <div className="flex gap-x-7 justify-around">
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-2xl mb-5">
+        <h2 className="text-center text-3xl md:text-4xl font-bold mb-10">
+          Our Services
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
+          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development 💻
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-sm md:text-base">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
               tempore itaque omnis sunt numquam odit est reiciendis dignissimos
               ipsa rerum! Corrupti culpa ipsam quod consequatur nostrum itaque
               quidem fuga sunt!
             </p>
           </div>
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-2xl mb-5">
+          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Mobile Development 📱
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-sm md:text-base">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Excepturi eum, porro maiores non dolore tempore amet. Temporibus
               fugiat fugit qui, repudiandae sit veritatis quod ex dignissimos ut
               nesciunt et est.
             </p>
           </div>
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-2xl mb-5">
+          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Iot Solutions 🤖
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-sm md:text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
               sed est neque. Molestias, voluptate deserunt. Architecto magnam
               vero porro, beatae autem et sapiente numquam quam, reiciendis
@@ -85,20 +87,22 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-center text-3xl font-bold mb-10">Projects</h3>
-        <div className="grid grid-cols-2 gap-y-10">
+        <h3 className="text-center text-2xl md:text-3xl font-bold mb-10">
+          Projects
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           {projects.length > 0
             ? projects.map((project) => (
                 <div
                   key={project.id}
-                  className="card bg-base-100 w-140 shadow-sm rounded-2xl hover:shadow-2xl duration-200 group"
+                  className="card bg-base-100 w-full shadow-sm rounded-2xl hover:shadow-2xl duration-200 group"
                 >
                   <div className="relative overflow-hidden rounded-t-2xl">
-                    <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3">
+                    <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3 flex-wrap">
                       {project.categories.map((category, index) => (
                         <div
                           key={index}
-                          className="rounded-4xl py-.5 px-2  text-white bg-violet-500/80 shadow-lg backdrop-blur-xl border border-white/20"
+                          className="rounded-4xl py-0.5 px-2 text-xs md:text-sm text-white bg-violet-500/80 shadow-lg backdrop-blur-xl border border-white/20"
                         >
                           {category}
                         </div>
@@ -107,18 +111,18 @@ const Services = () => {
                     <figure>
                       <Image
                         src={project.imageURL}
-                        alt="Shoes"
-                        className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110"
+                        alt={project.title}
+                        className="rounded-t-2xl transition-transform duration-300 group-hover:scale-110 w-full h-auto"
                         width={600}
-                        height={600}
+                        height={400}
                       />
                     </figure>
                   </div>
-                  <div className="card-body p-5">
-                    <h2 className="card-title text-2xl font-semibold mb-2">
+                  <div className="card-body p-4 md:p-5">
+                    <h2 className="card-title text-lg md:text-2xl font-semibold mb-2">
                       {project.title}
                     </h2>
-                    <p className="text-justify text-gray-500">
+                    <p className="text-justify text-gray-500 text-sm md:text-base">
                       {project.description}
                     </p>
                   </div>

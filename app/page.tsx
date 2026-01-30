@@ -127,22 +127,22 @@ export default function Home() {
     <div>
       <Header />
       <main className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto font-sans">
-        <section className="p-50 text-center mb-40">
-          <h1 className="text-6xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text">
+        <section className="p-4 md:p-12 text-center mb-20 md:mb-60 my-60 mb-100 md:my-50">
+          <h1 className="text-4xl md:text-6xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text mb-4">
             Ten Minds, One Mission
           </h1>
-          <h2 className="text-3xl text-gray-500">
+          <h2 className="text-xl md:text-3xl text-gray-500">
             to Create Solutions that Work!
           </h2>
         </section>
 
         {/*  */}
-        <section className="mb-40">
-          <div className="grid grid-cols-2 mb-15">
-            <h2 className="text-3xl font-bold text-center my-auto">
+        <section className="mb-20 md:mb-40">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15">
+            <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
               What is Decagon?
             </h2>
-            <p className="text-gray-500 text-justify shadow-sm hover:shadow-lg duration-200 rounded-2xl p-10">
+            <p className="text-gray-500 text-justify shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10">
               Decagon is a tech startup dedicated to transforming how businesses
               handle their daily operations. We specialize in creating
               intelligent solutions that optimize workflows, automate repetitive
@@ -157,13 +157,13 @@ export default function Home() {
               business operation.
             </p>
           </div>
-          <div className="grid grid-cols-2 text-justify">
-            <ul className="shadow-sm hover:shadow-lg duration-200 rounded-2xl p-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify">
+            <ul className="shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10 order-2 md:order-1">
               <li className="mb-5">
                 <h3 className="text-lg mb-1">
                   1. Solutions That Actually Work
                 </h3>
-                <p className="pl-5 text-gray-500">
+                <p className="pl-5 text-gray-500 text-sm md:text-base">
                   We don't believe in theoretical fixes. Every solution we
                   create is tested, proven, and built for real-world
                   application. Our track record speaks for itself—businesses
@@ -173,7 +173,7 @@ export default function Home() {
               </li>
               <li className="mb-5">
                 <h3 className="text-lg mb-1">2. Built for Your Business</h3>
-                <p className="pl-5 text-gray-500">
+                <p className="pl-5 text-gray-500 text-sm md:text-base">
                   No two businesses are the same, so why should their solutions
                   be? We take the time to understand your unique challenges,
                   workflows, and goals. Our tailored approach ensures that what
@@ -182,7 +182,7 @@ export default function Home() {
               </li>
               <li className="mb-5">
                 <h3 className="text-lg mb-1">3. Continuous Optimization</h3>
-                <p className="pl-5 text-gray-500">
+                <p className="pl-5 text-gray-500 text-sm md:text-base">
                   Business needs change, and your systems should too. Decagon
                   solutions are designed to adapt and scale as you grow. We
                   don't just set you up and walk away—we're committed to your
@@ -190,7 +190,7 @@ export default function Home() {
                 </p>
               </li>
             </ul>
-            <h2 className="text-3xl font-bold text-center my-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
               Why choose Decagon?
             </h2>
           </div>
@@ -198,12 +198,16 @@ export default function Home() {
 
         {/*  */}
         <Services />
-        <section className="pt-10 mb-40" id="about">
-          <h2 className="text-center text-4xl font-bold">About Us!</h2>
-          <div className="grid grid-cols-2 text-center py-10 mb-20">
-            <div className="ml-30 mr-10 shadow-sm p-10 pt-10 rounded-4xl hover:shadow-2xl duration-200">
-              <h3 className="text-3xl font-semibold mb-5">Mission</h3>
-              <p className="text-justify text-gray-500">
+        <section className="pt-10 mb-20 md:mb-40" id="about">
+          <h2 className="text-center text-3xl md:text-4xl font-bold">
+            About Us!
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center py-10 mb-20">
+            <div className="shadow-sm p-6 md:p-10 rounded-4xl hover:shadow-2xl duration-200">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-5">
+                Mission
+              </h3>
+              <p className="text-justify text-gray-500 text-sm md:text-base">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
                 aperiam necessitatibus, corrupti ut dolores pariatur
                 perspiciatis corporis minus ipsa mollitia quidem deleniti
@@ -211,9 +215,11 @@ export default function Home() {
                 delectus.
               </p>
             </div>
-            <div className=" mr-30 ml-10 shadow-sm p-10 rounded-4xl hover:shadow-2xl duration-200">
-              <h3 className="text-3xl font-semibold mb-5">Vision</h3>
-              <p className="text-justify text-gray-500">
+            <div className="shadow-sm p-6 md:p-10 rounded-4xl hover:shadow-2xl duration-200">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-5">
+                Vision
+              </h3>
+              <p className="text-justify text-gray-500 text-sm md:text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 voluptatum modi fugiat sint, dolore delectus cum quibusdam
                 facilis aspernatur debitis veniam quisquam expedita possimus
@@ -222,10 +228,10 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <h2 className="text-center text-4xl font-bold mb-10">
+            <h2 className="text-center text-3xl md:text-3xl font-bold mb-10">
               Meet the Team!
             </h2>
-            <div className="grid grid-cols-5 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-10">
               {teamMembers.map((member, index) => (
                 <ProfileCard key={index} {...member} />
               ))}

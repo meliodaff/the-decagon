@@ -1,12 +1,17 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="sticky top-0  z-100 shadow-sm bg-white">
-      <div className="px-4 py-2 w-[80%] min-w-[320px] max-w-[1200px] mx-auto grid grid-cols-2 items-center mb-10 ">
+    <header className="sticky top-0 z-100 shadow-sm bg-white">
+      <div className="px-4 py-2 w-full sm:w-[80%] min-w-[320px] max-w-[1200px] mx-auto flex items-center justify-between mb-10">
         <Link href="/">
           <div className="flex items-center tracking-[5] bg-linear-to-r text-violet-800">
-            <h1 className="text-3xl font-black">DECAG</h1>
+            <h1 className="text-2xl md:text-3xl font-black">DECAG</h1>
             <Image
               src="/DECAFINALBOSS.png"
               alt="Decagon Logo"
@@ -14,11 +19,36 @@ const Header = () => {
               height={35}
               className="mr-1"
             />
-            <h1 className="text-3xl font-black">N</h1>
+            <h1 className="text-2xl md:text-3xl font-black">N</h1>
           </div>
         </Link>
-        <nav>
-          <ul className="flex justify-around text-gray-600">
+
+        {/* Mobile menu button */}
+        <button
+          className="md:hidden flex flex-col gap-1.5"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+        >
+          <span
+            className={`block h-0.5 w-6 bg-gray-600 transition-all ${
+              isOpen ? "rotate-45 translate-y-2" : ""
+            }`}
+          />
+          <span
+            className={`block h-0.5 w-6 bg-gray-600 transition-all ${
+              isOpen ? "opacity-0" : ""
+            }`}
+          />
+          <span
+            className={`block h-0.5 w-6 bg-gray-600 transition-all ${
+              isOpen ? "-rotate-45 -translate-y-2" : ""
+            }`}
+          />
+        </button>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden md:block">
+          <ul className="flex justify-around gap-8 text-gray-600">
             <li>
               <Link href="/" className="hover:text-black duration-200">
                 Home
@@ -37,6 +67,41 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+
+      {/* Mobile Navigation */}
+      {isOpen && (
+        <nav className="md:hidden bg-white border-t border-gray-200">
+          <ul className="flex flex-col gap-4 text-gray-600 px-4 py-4">
+            <li>
+              <Link
+                href="/"
+                className="hover:text-black duration-200 block"
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#services"
+                className="hover:text-black duration-200 block"
+                onClick={() => setIsOpen(false)}
+              >
+                Our Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#about"
+                className="hover:text-black duration-200 block"
+                onClick={() => setIsOpen(false)}
+              >
+                About Us
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      )}
     </header>
   );
 };
