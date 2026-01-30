@@ -26,7 +26,7 @@ const ProfileCard = (props: Member) => {
       />
 
       <h3 className="text-l font-bold">{props.name}</h3>
-      <h4 className="text-gray-700 text-sm font-semibold leading-2 mb-3">
+      <h4 className="text-gray-700 text-sm font-semibold leading-2 mb-4">
         {props.role}
       </h4>
       <p className="text-gray-500 text-center">{props.description}</p>
