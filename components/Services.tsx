@@ -55,7 +55,7 @@ const Services = () => {
             <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development 💻
             </h3>
-            <p className="text-justify text-sm md:text-base">
+            <p className="text-justify text-sm md:text-base text-gray-500">
               We specialize in creating modern, responsive web applications
               using cutting-edge technologies. From frontend design to backend
               architecture, we build scalable solutions that deliver exceptional
@@ -68,7 +68,7 @@ const Services = () => {
             <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Mobile Development 📱
             </h3>
-            <p className="text-justify text-sm md:text-base">
+            <p className="text-justify text-sm md:text-base text-gray-500">
               Our team excels in building high-quality mobile applications for
               both iOS and Android platforms. We leverage frameworks like React
               Native and Flutter to create cross-platform apps that offer
@@ -81,7 +81,7 @@ const Services = () => {
             <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
               Iot Solutions 🤖
             </h3>
-            <p className="text-justify text-sm md:text-base">
+            <p className="text-justify text-sm md:text-base text-gray-500">
               We provide innovative IoT solutions that connect devices and
               enable smart functionalities. From sensor integration to data
               analytics, we design and implement IoT systems that enhance

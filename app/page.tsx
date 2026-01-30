@@ -143,7 +143,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
               What is Decagon?
             </h2>
-            <p className="text-gray-500 text-justify shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10">
+            <p className="text-gray-700 text-justify shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10">
               Decagon is a tech startup dedicated to transforming how businesses
               handle their daily operations. We specialize in creating
               intelligent solutions that optimize workflows, automate repetitive
