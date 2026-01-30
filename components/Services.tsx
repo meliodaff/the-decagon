@@ -56,10 +56,12 @@ const Services = () => {
               Web Development 💻
             </h3>
             <p className="text-justify text-sm md:text-base">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              tempore itaque omnis sunt numquam odit est reiciendis dignissimos
-              ipsa rerum! Corrupti culpa ipsam quod consequatur nostrum itaque
-              quidem fuga sunt!
+              We specialize in creating modern, responsive web applications
+              using cutting-edge technologies. From frontend design to backend
+              architecture, we build scalable solutions that deliver exceptional
+              user experiences. Our expertise includes React, Next.js,
+              TypeScript, and cloud deployment to ensure your web projects are
+              robust and performant.
             </p>
           </div>
           <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
@@ -67,10 +69,12 @@ const Services = () => {
               Mobile Development 📱
             </h3>
             <p className="text-justify text-sm md:text-base">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Excepturi eum, porro maiores non dolore tempore amet. Temporibus
-              fugiat fugit qui, repudiandae sit veritatis quod ex dignissimos ut
-              nesciunt et est.
+              Our team excels in building high-quality mobile applications for
+              both iOS and Android platforms. We leverage frameworks like React
+              Native and Flutter to create cross-platform apps that offer
+              seamless performance and engaging user interfaces. Whether you
+              need a simple app or a complex solution, we deliver mobile
+              experiences that meet your business goals.
             </p>
           </div>
           <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
@@ -78,10 +82,10 @@ const Services = () => {
               Iot Solutions 🤖
             </h3>
             <p className="text-justify text-sm md:text-base">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-              sed est neque. Molestias, voluptate deserunt. Architecto magnam
-              vero porro, beatae autem et sapiente numquam quam, reiciendis
-              suscipit quo unde error?
+              We provide innovative IoT solutions that connect devices and
+              enable smart functionalities. From sensor integration to data
+              analytics, we design and implement IoT systems that enhance
+              operational efficiency and user convenience
             </p>
           </div>
         </div>

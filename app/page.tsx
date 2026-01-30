@@ -208,11 +208,9 @@ export default function Home() {
                 Mission
               </h3>
               <p className="text-justify text-gray-500 text-sm md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                aperiam necessitatibus, corrupti ut dolores pariatur
-                perspiciatis corporis minus ipsa mollitia quidem deleniti
-                consequuntur laborum est aliquid iste inventore quaerat
-                delectus.
+                To empower businesses by providing innovative, reliable, and
+                efficient tech solutions that streamline operations and enhance
+                productivity
               </p>
             </div>
             <div className="shadow-sm p-6 md:p-10 rounded-4xl hover:shadow-2xl duration-200">
@@ -220,10 +218,9 @@ export default function Home() {
                 Vision
               </h3>
               <p className="text-justify text-gray-500 text-sm md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                voluptatum modi fugiat sint, dolore delectus cum quibusdam
-                facilis aspernatur debitis veniam quisquam expedita possimus
-                magni officiis vitae tempore quas! Ipsa.
+                To be a global leader in providing innovative tech solutions
+                that empower businesses to achieve operational excellence and
+                sustainable growth
               </p>
             </div>
           </div>
