@@ -17,12 +17,12 @@ interface Member {
 const ProfileCard = (props: Member) => {
   return (
     <div className="w-full group border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:border-fuchsia-500 duration-200 rounded-2xl pt-5 px-5 pb-2 flex flex-col items-center min-h-[300px] sm:min-h-[420px] md:min-h-[450px]">
-      <img
+      <Image
         src={`/${props.imageUrl}`}
         alt={props.name}
         className="group-hover:border-fuchsia-500 border-2 border-gray-200 transition-transform duration-200 rounded-full w-24 h-24 sm:w-28 sm:h-28 md:w-30 md:h-30 object-cover mb-2 shadow-sm"
-        width={30}
-        height={30}
+        width={120}
+        height={120}
       />
 
       <h3 className="text-base sm:text-lg font-bold text-center">
