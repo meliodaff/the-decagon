@@ -85,9 +85,7 @@ export default function Home() {
         "A UI/UX designer skilled in Figma, with a passion for user-centered design and clean interface solutions. Motivated to learn, grow, and contribute to meaningful digital experiences.",
       imageUrl: "LawrenceBermudo.png",
       socials: {
-        facebook: "#",
-        github: "#",
-        linkedin: "#",
+        facebook: "https://www.facebook.com/rnc.eeee",
       },
     },
     {
