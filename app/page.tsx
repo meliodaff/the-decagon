@@ -43,7 +43,7 @@ export default function Home() {
     },
     {
       id: 3,
-      name: "Russel Calinawan",
+      name: "Russell Calinawan",
       role: "Developer",
       description:
         "Passionate about coding and building hardware and IoT projects. Skilled at turning user needs into functional systems and optimizing workflows for efficiency",
