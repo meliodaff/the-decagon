@@ -130,7 +130,7 @@ export default function Home() {
       name: "Michael Macapagal",
       role: "UX Researcher",
       description: "Understanding user needs and behaviors.",
-      imageUrl: "MichaelMacapagal.png",
+      imageUrl: "MichaelMacapagal2.png",
       socials: {
         facebook: "https://www.facebook.com/menen08",
       },
