@@ -127,8 +127,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto font-sans">
-        <section className="p-4 md:p-12 text-center mb-20 md:mb-60 my-60 mb-100 md:mb-50 md:mt-40">
+      <main className=" mx-auto font-sans">
+        <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto p-4 md:p-12 text-center mb-20 md:mb-60 my-60 mb-100 md:mb-72    md:mt-40">
           <h1 className="text-4xl md:text-6xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text mb-4">
             Ten Minds, One Mission
           </h1>
@@ -138,93 +138,108 @@ export default function Home() {
         </section>
 
         {/*  */}
-        <section className="mb-20 md:mb-40">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15">
-            <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
-              What is Decagon?
-            </h2>
-            <p className="text-gray-700 text-justify shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10">
-              Decagon is a tech startup dedicated to transforming how businesses
-              handle their daily operations. We specialize in creating
-              intelligent solutions that optimize workflows, automate repetitive
-              tasks, and eliminate operational bottlenecks that slow your
-              business down. Our platform combines cutting-edge technology with
-              deep business insights to deliver systems that don't just
-              work—they evolve with your needs. Whether you're managing complex
-              projects, coordinating teams, or streamlining processes, Decagon
-              provides the tools and expertise to help you work smarter, faster,
-              and more efficiently. We're not just a software provider—we're
-              your partner in building a more productive, reliable, and scalable
-              business operation.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify">
-            <ul className="shadow-sm hover:shadow-lg duration-200 rounded-2xl p-6 md:p-10 order-2 md:order-1">
-              <li className="mb-5">
-                <h3 className="text-lg mb-1">
-                  1. Solutions That Actually Work
-                </h3>
-                <p className="pl-5 text-gray-500 text-sm md:text-base">
-                  We don't believe in theoretical fixes. Every solution we
-                  create is tested, proven, and built for real-world
-                  application. Our track record speaks for itself—businesses
-                  that partner with Decagon see measurable improvements in
-                  efficiency and productivity.
-                </p>
-              </li>
-              <li className="mb-5">
-                <h3 className="text-lg mb-1">2. Built for Your Business</h3>
-                <p className="pl-5 text-gray-500 text-sm md:text-base">
-                  No two businesses are the same, so why should their solutions
-                  be? We take the time to understand your unique challenges,
-                  workflows, and goals. Our tailored approach ensures that what
-                  we build fits seamlessly into your operations.
-                </p>
-              </li>
-              <li className="mb-5">
-                <h3 className="text-lg mb-1">3. Continuous Optimization</h3>
-                <p className="pl-5 text-gray-500 text-sm md:text-base">
-                  Business needs change, and your systems should too. Decagon
-                  solutions are designed to adapt and scale as you grow. We
-                  don't just set you up and walk away—we're committed to your
-                  ongoing success.
-                </p>
-              </li>
-            </ul>
-            <h2 className="text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
-              Why choose Decagon?
-            </h2>
-          </div>
-        </section>
+        <div className="bg-[#a37cf0] text-white pt-20 ">
+          <section className="mb-20 md:mb-20 bg w-[80%] min-w-[320px] max-w-[1200px] mx-auto pb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15">
+              <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
+                What is Decagon?
+              </h2>
+              <p className="text-lg text-white/70 text-justify shadow-2xl shadow-white  rounded-2xl p-6 md:p-10">
+                Decagon is a tech startup dedicated to transforming how
+                businesses handle their daily operations. We specialize in
+                creating intelligent solutions that optimize workflows, automate
+                repetitive tasks, and eliminate operational bottlenecks that
+                slow your business down. Our platform combines cutting-edge
+                technology with deep business insights to deliver systems that
+                don't just work—they evolve with your needs. Whether you're
+                managing complex projects, coordinating teams, or streamlining
+                processes, Decagon provides the tools and expertise to help you
+                work smarter, faster, and more efficiently. We're not just a
+                software provider—we're your partner in building a more
+                productive, reliable, and scalable business operation.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify">
+              <ul className="rounded-2xl p-6 md:p-10 order-2 md:order-1 shadow-2xl shadow-white ">
+                <li className="mb-5">
+                  <h3 className="text-xl mb-1 text-[#FAEB92] font-semibold ">
+                    1. Solutions That Actually Work
+                  </h3>
+                  <p className="text-lg pl-5 text-white/70">
+                    We don't believe in theoretical fixes. Every solution we
+                    create is tested, proven, and built for real-world
+                    application. Our track record speaks for itself—businesses
+                    that partner with Decagon see measurable improvements in
+                    efficiency and productivity.
+                  </p>
+                </li>
+                <li className="mb-5">
+                  <h3 className="text-xl mb-1 font-semibold text-[#FAEB92]">
+                    2. Built for Your Business
+                  </h3>
+                  <p className="text-lg pl-5 text-white/70">
+                    No two businesses are the same, so why should their
+                    solutions be? We take the time to understand your unique
+                    challenges, workflows, and goals. Our tailored approach
+                    ensures that what we build fits seamlessly into your
+                    operations.
+                  </p>
+                </li>
+                <li className="mb-5">
+                  <h3 className="text-xl mb-1 font-semibold text-[#FAEB92]">
+                    3. Continuous Optimization
+                  </h3>
+                  <p className="text-lg pl-5 text-white/70">
+                    Business needs change, and your systems should too. Decagon
+                    solutions are designed to adapt and scale as you grow. We
+                    don't just set you up and walk away—we're committed to your
+                    ongoing success.
+                  </p>
+                </li>
+              </ul>
+              <h2 className="text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
+                Why choose Decagon?
+              </h2>
+            </div>
+          </section>
+        </div>
 
         {/*  */}
         <Services />
-        <section className="pt-10 mb-20 md:mb-40" id="about">
-          <h2 className="text-center text-3xl md:text-4xl font-bold">
-            About Us!
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center py-10 mb-20">
-            <div className="shadow-sm p-6 md:p-10 rounded-4xl hover:shadow-2xl duration-200">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-5">
-                Mission
-              </h3>
-              <p className="text-justify text-gray-500 text-sm md:text-base">
-                To empower businesses by providing innovative, reliable, and
-                efficient tech solutions that streamline operations and enhance
-                productivity
-              </p>
+
+        <div className="bg-[#a37cf0] text-white py-20 mb-20">
+          <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto">
+            <h2 className="text-center text-3xl md:text-4xl font-bold">
+              About Us!
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center pt-10">
+              <div className=" p-6 md:p-10 rounded-4xl shadow-2xl shadow-white ">
+                <h3 className="text-2xl md:text-3xl font-semibold mb-5">
+                  Mission
+                </h3>
+                <p className="text-justify text-white/70  text-sm md:text-base">
+                  To empower businesses by providing innovative, reliable, and
+                  efficient tech solutions that streamline operations and
+                  enhance productivity
+                </p>
+              </div>
+              <div className="p-6 md:p-10 rounded-4xl shadow-2xl shadow-white">
+                <h3 className="text-2xl md:text-3xl font-semibold mb-5">
+                  Vision
+                </h3>
+                <p className="text-justify text-white/70  text-sm md:text-base">
+                  To be a global leader in providing innovative tech solutions
+                  that empower businesses to achieve operational excellence and
+                  sustainable growth
+                </p>
+              </div>
             </div>
-            <div className="shadow-sm p-6 md:p-10 rounded-4xl hover:shadow-2xl duration-200">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-5">
-                Vision
-              </h3>
-              <p className="text-justify text-gray-500 text-sm md:text-base">
-                To be a global leader in providing innovative tech solutions
-                that empower businesses to achieve operational excellence and
-                sustainable growth
-              </p>
-            </div>
-          </div>
+          </section>
+        </div>
+        <section
+          className="pt-10 mb-20 md:mb-40 w-[80%] min-w-[320px] max-w-[1200px] mx-auto"
+          id="about"
+        >
           <div className="">
             <h2 className="text-center text-3xl md:text-3xl font-bold mb-10">
               Meet the Team!

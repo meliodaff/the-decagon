@@ -45,7 +45,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="mb-20" id="services">
+    <section
+      className="mb-20 w-[80%] min-w-[320px] max-w-[1200px] mx-auto"
+      id="services"
+    >
       <div className="core-services mb-20">
         <h2 className="text-center text-3xl md:text-4xl font-bold mb-10">
           Our Services
