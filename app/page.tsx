@@ -37,6 +37,9 @@ export default function Home() {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: "KurtLonganilla.png",
+      socials: {
+        facebook: "https://www.facebook.com/kurt.longanilla",
+      },
     },
     {
       id: 3,
@@ -107,6 +110,9 @@ export default function Home() {
       role: "DevOps Engineer",
       description: "Optimizing deployment and infrastructure.",
       imageUrl: "StanielBautista.png",
+      socials: {
+        facebook: "https://www.facebook.com/staniel.bautista11",
+      },
     },
     {
       id: 9,
@@ -115,6 +121,9 @@ export default function Home() {
       description:
         "Experienced in building responsive frontend interfaces and functional backend systems, integrating APIs and databases, and contributing to feature development and maintenance while continuously improving development skills.",
       imageUrl: "RaphaelOcampo.png",
+      socials: {
+        facebook: "https://www.facebook.com/r.aphyraen",
+      },
     },
     {
       id: 10,
@@ -122,6 +131,9 @@ export default function Home() {
       role: "UX Researcher",
       description: "Understanding user needs and behaviors.",
       imageUrl: "MichaelMacapagal.png",
+      socials: {
+        facebook: "https://www.facebook.com/menen08",
+      },
     },
   ];
   return (

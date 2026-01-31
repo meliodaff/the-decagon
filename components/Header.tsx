@@ -48,7 +48,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
-          <ul className="flex justify-around gap-8 text-gray-600">
+          <ul className="flex gap-20 text-gray-600">
             <li>
               <Link href="/" className="hover:text-black duration-200">
                 Home
