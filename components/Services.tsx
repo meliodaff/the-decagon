@@ -102,7 +102,7 @@ const Services = () => {
             ? projects.map((project) => (
                 <div
                   key={project.id}
-                  className="card bg-base-100 w-full shadow-sm rounded-2xl hover:shadow-2xl duration-200 group"
+                  className="card bg-base-100 w-full shadow-sm rounded-2xl hover:shadow-2xl duration-200 transition-shadow group"
                 >
                   <div className="relative overflow-hidden rounded-t-2xl">
                     <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3 flex-wrap">
