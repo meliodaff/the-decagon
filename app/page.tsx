@@ -221,7 +221,7 @@ export default function Home() {
         {/*  */}
         <Services />
 
-        <div className="text-white py-20 mb-20 fade-in-about">
+        <div className="text-white py-20 mb-20 fade-in">
           <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto">
             <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold">
               About Us!
