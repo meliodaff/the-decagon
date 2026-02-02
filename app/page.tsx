@@ -148,13 +148,13 @@ export default function Home() {
         </section>
 
         {/*  */}
-        <div className="bg-[#a37cf0] text-white pt-20 ">
+        <div className="text-white pt-20 ">
           <section className="mb-20 md:mb-20 bg w-[80%] min-w-[320px] max-w-[1200px] mx-auto pb-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15">
-              <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
+              <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
                 What is Decagon?
               </h2>
-              <p className="text-lg text-white/70 text-justify shadow-2xl shadow-white  rounded-2xl p-6 md:p-10">
+              <p className="bg-linear-to-tl from-violet-800 to-fuchsia-400 text-lg text-white/70 text-justify shadow-2xl rounded-2xl p-6 md:p-10">
                 Decagon is a tech startup dedicated to transforming how
                 businesses handle their daily operations. We specialize in
                 creating intelligent solutions that optimize workflows, automate
@@ -170,7 +170,7 @@ export default function Home() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify">
-              <ul className="rounded-2xl p-6 md:p-10 order-2 md:order-1 shadow-2xl shadow-white ">
+              <ul className="bg-linear-to-tr from-violet-800 to-fuchsia-400 rounded-2xl p-6 md:p-10 order-2 md:order-1 shadow-2xl ">
                 <li className="mb-5">
                   <h3 className="text-xl mb-1 text-[#FAEB92] font-semibold ">
                     1. Solutions That Actually Work
@@ -207,7 +207,7 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
-              <h2 className="text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
+              <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
                 Why choose Decagon?
               </h2>
             </div>
@@ -217,13 +217,13 @@ export default function Home() {
         {/*  */}
         <Services />
 
-        <div className="bg-[#a37cf0] text-white py-20 mb-20">
+        <div className="text-white py-20 mb-20">
           <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto">
-            <h2 className="text-center text-3xl md:text-4xl font-bold">
+            <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold">
               About Us!
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center pt-10">
-              <div className=" p-6 md:p-10 rounded-4xl shadow-2xl shadow-white ">
+              <div className="bg-linear-to-tl from-violet-800 to-fuchsia-400 p-6 md:p-10 rounded-4xl shadow-2xl">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Mission
                 </h3>
@@ -233,7 +233,7 @@ export default function Home() {
                   enhance productivity
                 </p>
               </div>
-              <div className="p-6 md:p-10 rounded-4xl shadow-2xl shadow-white">
+              <div className="bg-linear-to-br from-violet-800 to-fuchsia-400 p-6 md:p-10 rounded-4xl shadow-2xl">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Vision
                 </h3>
@@ -251,7 +251,7 @@ export default function Home() {
           id="about"
         >
           <div className="">
-            <h2 className="text-center text-3xl md:text-3xl font-bold mb-10">
+            <h2 className="text-[#353935] text-center text-3xl md:text-3xl font-bold mb-10">
               Meet the Team!
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-10">

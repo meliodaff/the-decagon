@@ -50,12 +50,12 @@ const Services = () => {
       id="services"
     >
       <div className="core-services mb-20">
-        <h2 className="text-center text-3xl md:text-4xl font-bold mb-10">
+        <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold mb-10">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
+          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development 💻
             </h3>
             <p className="text-justify text-sm md:text-base text-gray-500">
@@ -67,11 +67,11 @@ const Services = () => {
               robust and performant.
             </p>
           </div>
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
+          <div className="bg-linear-to-t from-violet-800 to-fuchsia-400 shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-center text-white font-semibold text-xl md:text-2xl mb-5">
               Mobile Development 📱
             </h3>
-            <p className="text-justify text-sm md:text-base text-gray-500">
+            <p className="text-justify text-sm md:text-base text-white/70">
               Our team excels in building high-quality mobile applications for
               both iOS and Android platforms. We leverage frameworks like React
               Native and Flutter to create cross-platform apps that offer
@@ -80,8 +80,8 @@ const Services = () => {
               experiences that meet your business goals.
             </p>
           </div>
-          <div className="shadow-sm hover:shadow-2xl duration-200 px-6 md:px-8 py-5 rounded-2xl">
-            <h3 className="text-center font-semibold text-xl md:text-2xl mb-5">
+          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+            <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Iot Solutions 🤖
             </h3>
             <p className="text-justify text-sm md:text-base text-gray-500">
@@ -94,7 +94,7 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-center text-2xl md:text-3xl font-bold mb-10">
+        <h3 className="text-[#353935] text-center text-2xl md:text-3xl font-bold mb-10">
           Projects
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
@@ -102,7 +102,7 @@ const Services = () => {
             ? projects.map((project) => (
                 <div
                   key={project.id}
-                  className="card bg-base-100 w-full shadow-sm rounded-2xl hover:shadow-2xl duration-200 transition-shadow group"
+                  className="card bg-base-100 w-full shadow-2xl rounded-2xl transition-shadow group"
                 >
                   <div className="relative overflow-hidden rounded-t-2xl">
                     <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3 flex-wrap">
@@ -126,7 +126,7 @@ const Services = () => {
                     </figure>
                   </div>
                   <div className="card-body p-4 md:p-5">
-                    <h2 className="card-title text-lg md:text-2xl font-semibold mb-2">
+                    <h2 className="text-[#353935] card-title text-lg md:text-2xl font-semibold mb-2">
                       {project.title}
                     </h2>
                     <p className="text-justify text-gray-500 text-sm md:text-base">

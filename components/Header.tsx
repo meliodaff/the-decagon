@@ -10,7 +10,7 @@ const Header = () => {
     <header className="sticky top-0 z-100 shadow-sm bg-white">
       <div className="px-4 py-2 w-full sm:w-[80%] min-w-[320px] max-w-[1200px] mx-auto flex items-center justify-between mb-10">
         <Link href="/">
-          <div className="flex items-center tracking-[5] bg-linear-to-r text-violet-800">
+          <div className="flex items-center tracking-[5] text-[#7052B4]">
             <h1 className="text-2xl md:text-3xl font-black">DECAG</h1>
             <Image
               src="/DECAFINALBOSS.png"
