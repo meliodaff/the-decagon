@@ -35,8 +35,8 @@ export default function Home() {
       name: "Kurt Longanilla",
       role: "Project Manager",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: "KurtLonganilla.png",
+        "A project manager with strong communication and leadership skills, responsible for coordinating team efforts and ensuring projects stay on track.",
+      imageUrl: "KurtLonganilla1.png",
       socials: {
         facebook: "https://www.facebook.com/kurt.longanilla",
       },
@@ -71,7 +71,7 @@ export default function Home() {
       role: "Systems Analyst",
       description:
         "Detail-oriented analyst focused on undestanding user needs and system processes. Skilled in documentation and workflow analysis",
-      imageUrl: "AlyssaCasan.png",
+      imageUrl: "AlyssaCasan1.png",
       socials: {
         github: "https://github.com/alysrc",
         facebook: "https://www.facebook.com/aly.rcsn",
@@ -107,7 +107,7 @@ export default function Home() {
       name: "Staniel Bautista",
       role: "UI/UX Designer",
       description:
-        "As a UI/UX Designer and Researcher, I don't just create beautiful interfaces—I solve problems. My approach combines rigorous academic research methods with creative design execution. I thrive on uncovering the 'why' behind user behavior and translating those insights into functional, high-fidelity designs that delight users.",
+        "As a UI/UX Designer and Researcher, I use rigorous inquiry to drive creative execution. I specialize in turning complex user behavior into seamless, high-fidelity interfaces that solve problems and delight users.",
       imageUrl: "StanielBautista.png",
       socials: {
         facebook: "https://www.facebook.com/staniel.bautista11",
@@ -127,9 +127,10 @@ export default function Home() {
     {
       id: 10,
       name: "Michael Macapagal",
-      role: "Roamer",
-      description: "Top 1 masha pasong tamo masha",
-      imageUrl: "MichaelMacapagal2.png",
+      role: "FrontEnd Engineer",
+      description:
+        "Frontend Engineer focused on building scalable, performant, and accessible web applications. I bridge the gap between design and engineering, utilizing a modern tech stack to deliver seamless UI/UX across all devices.",
+      imageUrl: "MichaelMacapagal.jpg",
       socials: {
         facebook: "https://www.facebook.com/menen08",
       },
@@ -154,7 +155,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15 fade-in">
               <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
                 What is Decagon?
-                <div className="bg-[#353935] mt-5 h-2"></div>
+                <div className="bg-[#8A2BE2] mt-5 h-2"></div>
               </h2>
 
               <p className="bg-linear-to-tl from-violet-800 to-fuchsia-400 text-lg text-white text-justify shadow-2xl rounded-2xl p-6 md:p-10">
@@ -212,7 +213,7 @@ export default function Home() {
               </ul>
               <h2 className="text-[#353935] mx-auto items-center text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
                 Why choose Decagon?
-                <div className="bg-[#353935] mt-5 h-2"></div>
+                <div className="bg-[#8A2BE2] mt-5 h-2"></div>
               </h2>
             </div>
           </section>
