@@ -49,11 +49,11 @@ const Services = () => {
       className="mb-20 w-[80%] min-w-[320px] max-w-[1200px] mx-auto"
       id="services"
     >
-      <div className="core-services mb-20">
+      <div className="core-services mb-20 fade-in">
         <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold mb-10">
           Our Services
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7 fade-in">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
           <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development
@@ -71,7 +71,7 @@ const Services = () => {
             <h3 className="text-center text-white font-semibold text-xl md:text-2xl mb-5">
               Mobile Development
             </h3>
-            <p className="text-justify text-sm md:text-base text-white/70">
+            <p className="text-justify text-sm md:text-base text-white">
               Our team excels in building high-quality mobile applications for
               both iOS and Android platforms. We leverage frameworks like React
               Native and Flutter to create cross-platform apps that offer
@@ -94,15 +94,15 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-[#353935] text-center text-2xl md:text-3xl font-bold mb-10">
+        <h3 className="text-[#353935] text-center text-2xl md:text-3xl font-bold mb-10  fade-in">
           Projects
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 fade-in">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           {projects.length > 0
             ? projects.map((project) => (
                 <div
                   key={project.id}
-                  className="card bg-base-100 w-full shadow-2xl rounded-2xl transition-shadow group"
+                  className="card bg-base-100 w-full shadow-2xl rounded-2xl transition-shadow group fade-in"
                 >
                   <div className="relative overflow-hidden rounded-t-2xl">
                     <div className="card-actions z-10 flex justify-end gap-x-1 mt-3 text-white absolute right-3 flex-wrap">

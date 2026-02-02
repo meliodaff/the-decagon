@@ -129,11 +129,10 @@ html {
   }
 }
 
-
 .fade-in {
   animation: fade-up linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 60%;
 }
 
 @keyframes fade-up {
@@ -150,7 +149,7 @@ html {
 .fade-in-about {
   animation: fade-up linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 60%;
+  animation-range: entry 0% cover 40%;
 }
 
 @keyframes fade-up {

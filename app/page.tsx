@@ -106,7 +106,8 @@ export default function Home() {
       id: 8,
       name: "Staniel Bautista",
       role: "UI/UX Designer",
-      description: "As a UI/UX Designer and Researcher, I don't just create beautiful interfaces—I solve problems. My approach combines rigorous academic research methods with creative design execution. I thrive on uncovering the 'why' behind user behavior and translating those insights into functional, high-fidelity designs that delight users.",
+      description:
+        "As a UI/UX Designer and Researcher, I don't just create beautiful interfaces—I solve problems. My approach combines rigorous academic research methods with creative design execution. I thrive on uncovering the 'why' behind user behavior and translating those insights into functional, high-fidelity designs that delight users.",
       imageUrl: "StanielBautista.png",
       socials: {
         facebook: "https://www.facebook.com/staniel.bautista11",
@@ -153,8 +154,10 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15 fade-in">
               <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
                 What is Decagon?
+                <div className="bg-[#353935] mt-5 h-2"></div>
               </h2>
-              <p className="bg-linear-to-tl from-violet-800 to-fuchsia-400 text-lg text-white/70 text-justify shadow-2xl rounded-2xl p-6 md:p-10">
+
+              <p className="bg-linear-to-tl from-violet-800 to-fuchsia-400 text-lg text-white text-justify shadow-2xl rounded-2xl p-6 md:p-10">
                 Decagon is a tech startup dedicated to transforming how
                 businesses handle their daily operations. We specialize in
                 creating intelligent solutions that optimize workflows, automate
@@ -175,7 +178,7 @@ export default function Home() {
                   <h3 className="text-xl mb-1 text-[#FAEB92] font-semibold ">
                     1. Solutions That Actually Work
                   </h3>
-                  <p className="text-lg pl-5 text-white/70">
+                  <p className="text-lg pl-5 text-white">
                     We don't believe in theoretical fixes. Every solution we
                     create is tested, proven, and built for real-world
                     application. Our track record speaks for itself—businesses
@@ -187,7 +190,7 @@ export default function Home() {
                   <h3 className="text-xl mb-1 font-semibold text-[#FAEB92]">
                     2. Built for Your Business
                   </h3>
-                  <p className="text-lg pl-5 text-white/70">
+                  <p className="text-lg pl-5 text-white">
                     No two businesses are the same, so why should their
                     solutions be? We take the time to understand your unique
                     challenges, workflows, and goals. Our tailored approach
@@ -199,7 +202,7 @@ export default function Home() {
                   <h3 className="text-xl mb-1 font-semibold text-[#FAEB92]">
                     3. Continuous Optimization
                   </h3>
-                  <p className="text-lg pl-5 text-white/70">
+                  <p className="text-lg pl-5 text-white">
                     Business needs change, and your systems should too. Decagon
                     solutions are designed to adapt and scale as you grow. We
                     don't just set you up and walk away—we're committed to your
@@ -207,8 +210,9 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
-              <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
+              <h2 className="text-[#353935] mx-auto items-center text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
                 Why choose Decagon?
+                <div className="bg-[#353935] mt-5 h-2"></div>
               </h2>
             </div>
           </section>
@@ -227,7 +231,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Mission
                 </h3>
-                <p className="text-justify text-white/70  text-sm md:text-base">
+                <p className="text-justify text-sm md:text-base">
                   To empower businesses by providing innovative, reliable, and
                   efficient tech solutions that streamline operations and
                   enhance productivity
@@ -237,7 +241,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Vision
                 </h3>
-                <p className="text-justify text-white/70  text-sm md:text-base">
+                <p className="text-justify text-sm md:text-base">
                   To be a global leader in providing innovative tech solutions
                   that empower businesses to achieve operational excellence and
                   sustainable growth
