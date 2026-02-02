@@ -140,11 +140,11 @@ export default function Home() {
     <div>
       <Header />
       <main className=" mx-auto font-sans">
-        <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto p-4 md:p-12 text-center mb-20 md:mb-60 my-60 mb-100 md:mb-72    md:mt-40">
-          <h1 className="text-4xl md:text-6xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text mb-4">
+        <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto p-4 md:p-12 text-center mb-40 mt-50 my-60 md:mb-72 md:mt-30">
+          <h1 className="text-6xl md:text-8xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text mb-4">
             Ten Minds, One Mission
           </h1>
-          <h2 className="text-xl md:text-3xl text-gray-500">
+          <h2 className="text-xl md:text-4xl text-gray-500">
             to Create Solutions that Work!
           </h2>
         </section>
