@@ -49,12 +49,12 @@ const Services = () => {
       className="mb-20 w-[80%] min-w-[320px] max-w-[1200px] mx-auto"
       id="services"
     >
-      <div className="core-services mb-20 fade-in">
-        <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold mb-10">
+      <div className="core-services mb-20">
+        <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold mb-10  fade-in">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
-          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl fade-in">
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development
             </h3>
@@ -67,7 +67,7 @@ const Services = () => {
               robust and performant.
             </p>
           </div>
-          <div className="bg-linear-to-t from-violet-800 to-fuchsia-400 shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+          <div className="bg-linear-to-t from-violet-800 to-fuchsia-400 fade-in shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
             <h3 className="text-center text-white font-semibold text-xl md:text-2xl mb-5">
               Mobile Development
             </h3>
@@ -80,7 +80,7 @@ const Services = () => {
               experiences that meet your business goals.
             </p>
           </div>
-          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
+          <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl fade-in">
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Iot Solutions
             </h3>
