@@ -155,7 +155,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15 fade-in">
               <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
                 What is Decagon?
-                <div className="bg-[##353935] mt-5 h-2"></div>
+                <div className="bg-[#8A2BE2] mt-5 h-2"></div>
               </h2>
 
               <p className="bg-linear-to-tl from-violet-800 to-fuchsia-400 text-lg text-white text-justify shadow-2xl rounded-2xl p-6 md:p-10">
@@ -213,7 +213,7 @@ export default function Home() {
               </ul>
               <h2 className="text-[#353935] mx-auto items-center text-2xl md:text-3xl font-bold text-center my-auto order-1 md:order-2">
                 Why choose Decagon?
-                <div className="bg-[##353935] mt-5 h-2"></div>
+                <div className="bg-[#8A2BE2] mt-5 h-2"></div>
               </h2>
             </div>
           </section>
