@@ -140,7 +140,7 @@ export default function Home() {
     <div>
       <Header />
       <main className=" mx-auto font-sans">
-        <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto p-4 md:p-12 text-center mb-40 mt-50 my-60 md:mb-72 md:mt-30">
+        <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto p-4 md:p-12 text-center mb-40 mt-40 my-60 md:mb-72 md:mt-30">
           <h1 className="text-6xl md:text-8xl font-black bg-linear-to-r from-cyan-500 to-fuchsia-500 text-transparent bg-clip-text mb-4">
             Ten Minds, One Mission
           </h1>
