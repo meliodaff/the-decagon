@@ -105,8 +105,8 @@ export default function Home() {
     {
       id: 8,
       name: "Staniel Bautista",
-      role: "DevOps Engineer",
-      description: "Optimizing deployment and infrastructure.",
+      role: "UI/UX Designer",
+      description: "As a UI/UX Designer and Researcher, I don't just create beautiful interfaces—I solve problems. My approach combines rigorous academic research methods with creative design execution. I thrive on uncovering the 'why' behind user behavior and translating those insights into functional, high-fidelity designs that delight users.",
       imageUrl: "StanielBautista.png",
       socials: {
         facebook: "https://www.facebook.com/staniel.bautista11",
@@ -126,8 +126,8 @@ export default function Home() {
     {
       id: 10,
       name: "Michael Macapagal",
-      role: "UX Researcher",
-      description: "Understanding user needs and behaviors.",
+      role: "Roamer",
+      description: "Top 1 masha pasong tamo masha",
       imageUrl: "MichaelMacapagal2.png",
       socials: {
         facebook: "https://www.facebook.com/menen08",
@@ -148,9 +148,9 @@ export default function Home() {
         </section>
 
         {/*  */}
-        <div className="text-white pt-20 ">
+        <div className="text-white pt-20">
           <section className="mb-20 md:mb-20 bg w-[80%] min-w-[320px] max-w-[1200px] mx-auto pb-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 md:mb-15 fade-in">
               <h2 className="text-[#353935] text-2xl md:text-3xl font-bold text-center md:text-left my-auto mx-auto">
                 What is Decagon?
               </h2>
@@ -169,7 +169,7 @@ export default function Home() {
                 productive, reliable, and scalable business operation.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-justify fade-in">
               <ul className="bg-linear-to-tr from-violet-800 to-fuchsia-400 rounded-2xl p-6 md:p-10 order-2 md:order-1 shadow-2xl ">
                 <li className="mb-5">
                   <h3 className="text-xl mb-1 text-[#FAEB92] font-semibold ">
@@ -217,7 +217,7 @@ export default function Home() {
         {/*  */}
         <Services />
 
-        <div className="text-white py-20 mb-20">
+        <div className="text-white py-20 mb-20 fade-in-about">
           <section className="w-[80%] min-w-[320px] max-w-[1200px] mx-auto">
             <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold">
               About Us!

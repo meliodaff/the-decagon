@@ -53,10 +53,10 @@ const Services = () => {
         <h2 className="text-[#353935] text-center text-3xl md:text-4xl font-bold mb-10">
           Our Services
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7 fade-in">
           <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
-              Web Development 💻
+              Web Development
             </h3>
             <p className="text-justify text-sm md:text-base text-gray-500">
               We specialize in creating modern, responsive web applications
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
           <div className="bg-linear-to-t from-violet-800 to-fuchsia-400 shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
             <h3 className="text-center text-white font-semibold text-xl md:text-2xl mb-5">
-              Mobile Development 📱
+              Mobile Development
             </h3>
             <p className="text-justify text-sm md:text-base text-white/70">
               Our team excels in building high-quality mobile applications for
@@ -82,7 +82,7 @@ const Services = () => {
           </div>
           <div className="shadow-2xl px-6 md:px-8 py-5 rounded-2xl">
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
-              Iot Solutions 🤖
+              Iot Solutions
             </h3>
             <p className="text-justify text-sm md:text-base text-gray-500">
               We provide innovative IoT solutions that connect devices and
@@ -97,7 +97,7 @@ const Services = () => {
         <h3 className="text-[#353935] text-center text-2xl md:text-3xl font-bold mb-10">
           Projects
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 fade-in">
           {projects.length > 0
             ? projects.map((project) => (
                 <div
