@@ -145,3 +145,16 @@ html {
     transform: translateY(0);
   }
 }
+
+.fade-in-text {
+  animation: fadeInText 1.5s ease-in forwards !important;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
