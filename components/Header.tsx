@@ -7,9 +7,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-100 shadow-sm bg-white">
-      <div className="px-4 py-2 w-full sm:w-[80%] min-w-[320px] max-w-[1200px] mx-auto flex items-center justify-between mb-10">
-        <Link href="/">
+    <header className="sticky top-2 z-100 shadow-sm bg-white w-[80%] min-w-[320px] max-w-[1200px] mx-auto md:rounded-full rounded-2xl">
+      <div className="px-4 sm:px-0 py-2 w-full sm:w-[80%] min-w-[320px] max-w-[1200px] mx-auto flex items-center justify-between mb-10">
+        <Link href="/" className="">
           <div className="flex items-center tracking-[5] text-[#7052B4]">
             <h1 className="text-2xl md:text-3xl font-black">DECAG</h1>
             <Image
@@ -47,7 +47,7 @@ const Header = () => {
         </button>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:block">
+        <nav className="hidden md:block -ml-15">
           <ul className="flex gap-20 text-gray-600">
             <li>
               <Link href="/" className="hover:text-black duration-200">
@@ -66,11 +66,18 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+
+        <Link
+          href="mailto:decagon.ph@gmail.com"
+          className="hidden md:block bg-[#7052B4] px-8 py-2 rounded-full text-white hover:bg-[#5a3e8a] duration-200"
+        >
+          <button className="cursor-pointer">Email Us</button>
+        </Link>
       </div>
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <nav className="md:hidden bg-white border-t border-gray-100 -mt-10">
+        <nav className="md:hidden bg-white -mt-10">
           <ul className="flex flex-col gap-4 text-gray-600 px-4 py-4 text-center">
             <li>
               <Link
@@ -97,6 +104,15 @@ const Header = () => {
                 onClick={() => setIsOpen(false)}
               >
                 About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="mailto:decagon.ph@gmail.com"
+                className="hover:text-black duration-200 block bg-[#7052B4] px-4 py-2 rounded-full text-white"
+                onClick={() => setIsOpen(false)}
+              >
+                Email Us
               </Link>
             </li>
           </ul>
