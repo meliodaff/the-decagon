@@ -230,7 +230,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Mission
                 </h3>
-                <p className="text-justify text-sm md:text-base">
+                <p className="text-justify text-lg md:text-base">
                   To empower businesses by providing innovative, reliable, and
                   efficient tech solutions that streamline operations and
                   enhance productivity
@@ -240,7 +240,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-semibold mb-5">
                   Vision
                 </h3>
-                <p className="text-justify text-sm md:text-base">
+                <p className="text-justify text-lg md:text-base">
                   To be a global leader in providing innovative tech solutions
                   that empower businesses to achieve operational excellence and
                   sustainable growth
