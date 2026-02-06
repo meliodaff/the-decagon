@@ -58,7 +58,7 @@ const Services = () => {
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Web Development
             </h3>
-            <p className="text-justify text-sm md:text-base text-gray-500">
+            <p className="text-justify text-lg md:text-base text-gray-500">
               We specialize in creating modern, responsive web applications
               using cutting-edge technologies. From frontend design to backend
               architecture, we build scalable solutions that deliver exceptional
@@ -71,7 +71,7 @@ const Services = () => {
             <h3 className="text-center text-white font-semibold text-xl md:text-2xl mb-5">
               Mobile Development
             </h3>
-            <p className="text-justify text-sm md:text-base text-white">
+            <p className="text-justify text-lg md:text-base text-white">
               Our team excels in building high-quality mobile applications for
               both iOS and Android platforms. We leverage frameworks like React
               Native and Flutter to create cross-platform apps that offer
@@ -84,7 +84,7 @@ const Services = () => {
             <h3 className="text-[#353935] text-center font-semibold text-xl md:text-2xl mb-5">
               Iot Solutions
             </h3>
-            <p className="text-justify text-sm md:text-base text-gray-500">
+            <p className="text-justify text-lg md:text-base text-gray-500">
               We provide innovative IoT solutions that connect devices and
               enable smart functionalities. From sensor integration to data
               analytics, we design and implement IoT systems that enhance
@@ -126,10 +126,10 @@ const Services = () => {
                     </figure>
                   </div>
                   <div className="card-body p-4 md:p-5">
-                    <h2 className="text-[#353935] card-title text-lg md:text-2xl font-semibold mb-2">
+                    <h2 className="text-[#353935] card-title text-xl md:text-2xl font-semibold mb-2">
                       {project.title}
                     </h2>
-                    <p className="text-justify text-gray-500 text-sm md:text-base">
+                    <p className="text-justify text-gray-500 text-lg md:text-base">
                       {project.description}
                     </p>
                   </div>
