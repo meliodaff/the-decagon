@@ -135,6 +135,17 @@ export default function Home() {
         facebook: "https://www.facebook.com/menen08",
       },
     },
+    {
+      id: 11,
+      name: "Sarah Calexterio",
+      role: "UI/UX Designer",
+      description:
+        "UI/UX Designer focused on creating clean, functional interfaces. Experienced in designing from wireframes to high-fidelity prototypes, ensuring a balance between usability, aesthetics, and business goals.",
+      imageUrl: "SarahCalexterio.png",
+      socials: {
+        facebook: "https://www.facebook.com/tayameyy",
+      },
+    },
   ];
   return (
     <div>
