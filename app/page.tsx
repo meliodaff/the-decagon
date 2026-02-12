@@ -144,6 +144,7 @@ export default function Home() {
       imageUrl: "SarahCalexterio.png",
       socials: {
         facebook: "https://www.facebook.com/tayameyy",
+        linkedin: "https://www.linkedin.com/in/calexterio-sarah-mae-n-6733573b0"
       },
     },
   ];
